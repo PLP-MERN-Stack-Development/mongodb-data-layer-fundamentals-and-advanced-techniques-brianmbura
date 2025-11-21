@@ -1,59 +1,38 @@
-# MongoDB Fundamentals - Week 1
+# PLP MERN Stack Program – Week 1 Assignment  
+## MongoDB Data Layer Fundamentals and Advanced Techniques
 
-## Setup Instructions
+This repository contains my Week 1 assignment for the PLP MERN Stack Software Engineering Program.  
+The objective of this assignment was to learn and apply MongoDB fundamentals including database setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
 
-Before you begin this assignment, please make sure you have the following installed:
+---
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+## 📁 Files Included
 
-### Node.js Package Setup
+| File | Description |
+|------|-------------|
+| `insert_books.js` | Node.js script used to insert sample book documents into the `plp_bookstore` database. |
+| `queries.js` | Contains all MongoDB CRUD queries, advanced queries, aggregation pipelines, and indexing commands. |
+| `README.md` | Instructions on how to run the scripts and understand the project. |
+| `screenshots/` | Screenshots of MongoDB Compass showing the `books` collection and indexes. |
 
-Once you have Node.js installed, run the following commands in your assignment directory:
+---
 
-```bash
-# Initialize a package.json file
-npm init -y
+## 🛠️ Requirements
 
-# Install the MongoDB Node.js driver
-npm install mongodb
-```
+To run this project locally, ensure you have the following installed:
 
-## Assignment Overview
+- **MongoDB Community Server**
+- **MongoDB Shell (mongosh)**
+- **MongoDB Compass**
+- **Node.js v18+**
 
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
+---
 
-## Submission
+## 🚀 How to Run This Project
 
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
+### 1. Start MongoDB Server
+On Windows, MongoDB runs automatically as a service.  
+If needed, start manually:
 
-## Getting Started
-
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
-
-## Files Included
-
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
-
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+```sh
+net start MongoDB
